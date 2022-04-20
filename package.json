@@ -4,6 +4,12 @@
   "description": "A Node bot for the video game Auto Traffic Control",
   "private": true,
   "main": "src/main.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jdno/node-traffic-controller.git"
@@ -17,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/jdno/node-traffic-controller/issues"
   },
-  "homepage": "https://github.com/jdno/node-traffic-controller#readme"
+  "homepage": "https://github.com/jdno/node-traffic-controller#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.8",
+    "prettier": "2.6.2"
+  }
 }
