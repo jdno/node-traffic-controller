@@ -1,0 +1,21 @@
+{
+  "name": "node-traffic-controller",
+  "version": "0.0.0",
+  "description": "A Node bot for the video game Auto Traffic Control",
+  "private": true,
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdno/node-traffic-controller.git"
+  },
+  "keywords": [
+    "game",
+    "bot"
+  ],
+  "author": "Jan David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdno/node-traffic-controller/issues"
+  },
+  "homepage": "https://github.com/jdno/node-traffic-controller#readme"
+}
